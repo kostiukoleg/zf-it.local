@@ -1,0 +1,50 @@
+<NotepadPlus>
+    <Project name="zf-it.local">
+        <Folder name="application">
+            <Folder name="configs">
+                <File name="application\configs\application.ini" />
+            </Folder>
+            <Folder name="controllers">
+                <File name="application\controllers\ErrorController.php" />
+                <File name="application\controllers\IndexController.php" />
+            </Folder>
+            <Folder name="layouts">
+                <Folder name="scripts">
+                    <File name="application\layouts\scripts\layout.phtml" />
+                </Folder>
+            </Folder>
+            <Folder name="models" />
+            <Folder name="views">
+                <Folder name="helpers" />
+                <Folder name="scripts">
+                    <Folder name="error">
+                        <File name="application\views\scripts\error\error.phtml" />
+                    </Folder>
+                    <Folder name="index">
+                        <File name="application\views\scripts\index\index.phtml" />
+                    </Folder>
+                </Folder>
+            </Folder>
+            <File name="application\Bootstrap.php" />
+        </Folder>
+        <Folder name="docs">
+            <File name="docs\README.txt" />
+        </Folder>
+        <Folder name="library" />
+        <Folder name="public">
+            <File name="public\.htaccess" />
+            <File name="public\index.php" />
+        </Folder>
+        <Folder name="tests">
+            <Folder name="application">
+                <Folder name="controllers">
+                    <File name="tests\application\controllers\IndexControllerTest.php" />
+                </Folder>
+            </Folder>
+            <Folder name="library" />
+            <File name="tests\bootstrap.php" />
+            <File name="tests\phpunit.xml" />
+        </Folder>
+        <File name=".zfproject.xml" />
+    </Project>
+</NotepadPlus>
